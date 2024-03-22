@@ -1,0 +1,609 @@
+body{
+    padding: 0;
+    margin: 0 auto;
+}
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+.container{
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1140px;
+    overflow: hidden;
+}
+#header{
+    width: 100%;
+    display: inline-block;
+    padding: 15px 0;
+}
+.row{
+    margin: 0 -15px;
+}
+.logo{
+    width: 30%;
+    padding: 0 15px;
+    float: left;
+}
+.navbr{
+    width: 70%;
+    padding: 0 15px;
+    float: left;
+}
+.navbr ul{
+    text-align: right;
+}
+.navbr ul li{
+    padding: 15px 15px;
+    display: inline-block;
+}
+.navbr ul li a{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+
+}
+.navbr ul li a.ram{
+    color: #FFA726;
+
+}
+#banner{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+.banner-img{
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+.banner-img img{
+    width: 100%;
+    height: 100%;
+}
+.banner-img::after{
+    content: "";
+    inset: 0;
+    background-color: black;
+    opacity: 60%;
+    position: absolute;
+}
+.banner-text{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+
+}
+.text span{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: white;
+
+
+}
+.text h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: white;
+    padding: 25px 0;
+    max-width: 500px;
+
+}
+.text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    padding-bottom: 30px;
+    max-width: 415px;
+
+}
+.book{
+    width: 100%;
+    display: inline-block;
+}
+.book a{
+    width: auto;
+    float: left;
+    padding: 16px 37px;
+    background-color: #FFA726;
+    border-radius: 30px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size:16px; 
+}
+.main{
+    width: 33.33%;
+    padding: 0 30px 0 0;
+    float: left;
+}
+.main-box{
+    width: 100%;
+    display: inline-block;
+    background-color: white;
+    border-radius: 20px;
+    padding: 13px;
+    margin-top: 96px;
+}
+.main-box a i{
+    font-size: 32px;
+    color: #FFA726;
+}
+.main-box h3{
+    padding:16px 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+.main-box p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #666;
+    line-height: 24px;
+    padding: 0 25px 52px 0;
+    width: 100%;
+
+}
+#other-col{
+    width: 100%;
+    display: inline-block;
+    padding: 108px 0;
+}
+.car-col{
+    width: 33.33%;
+    padding: 0 15px 0 15px;
+    float: left;
+}
+.car-col-box{
+    width: 100%;
+    display: inline-block;
+
+}
+.car{
+    padding-bottom: 30px;
+}
+.car-col-box span{
+font-size: 22px;
+font-weight:600;
+font-family: 'Roboto', sans-serif;
+color: #FFA726;
+}
+.car-col-box h4{
+    font-family: 'Raleway', sans-serif;
+font-weight: 600;
+font-size: 22px;
+padding: 10px 0;
+}
+.car-col-box p{
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 50px;
+
+}
+#cover-col{
+    width: 100%;
+    display: inline-block;
+    padding: 70px 0;
+    background: #F5F5F5;
+
+}
+.text-col{
+    width: 50%;
+    padding: 0 15px 0 0;
+    float: left;
+    padding-top: 16px;
+}
+.text-img{
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+}
+.text-img img{
+    width: 100%;
+}
+.turn{
+    width: 100%;
+    display: inline-block;
+}
+.turn span{
+    font-size: 22px;
+    font-weight:400;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: #FFA726; 
+}
+.turn h4{
+    font-size: 36px;
+    font-weight: 500;   
+    font-family: 'Raleway', sans-serif;
+    padding-top: 20px ;
+}
+.turn p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+padding:20px 0 45px 0;
+
+}
+.taxi-on{
+    width: auto;
+    float: left;
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 45px;
+    border-radius: 20px;
+    
+
+}
+.taxi-on a{
+    display: inline-block;
+}
+.taxi-on a i{
+font-size: 30px;
+color: #FFA726;  
+padding-right: 15px;  
+
+}
+.taxi-on span{
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 22px;    
+}
+.taxi-on p{
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #666;
+    padding-left: 48px ;
+
+}
+.active-box{
+    box-shadow: 0 0 10px #ddd;
+}
+
+#boxes{
+    width: 100%;
+    display: inline-block;
+    padding: 80px 0;
+}
+.heading{
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+.smile{
+    width: 33.33%;
+    padding: 0 30px 0 0;
+    float: left;
+}
+.smile-box{
+    width: 100%;
+    display: inline-block;
+    padding: 25px 20px 20px 20px;
+    background-color:#F5F5F5;
+    margin-top: 60px;
+    border-radius: 8px;
+}
+.tags{
+    width: 100%;
+    display: inline-block;
+}
+.tags ul li{
+    display: inline-block;
+}
+.heading span{
+    font-size:22px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #FFA726;
+
+}
+.heading h3{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    line-height:24px;
+padding: 20px 0;
+}
+.heading p{
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 544px;
+    line-height: 24px;
+}
+.vocter img{
+    padding-bottom: 20px;
+}
+.smile-box p{
+    padding-bottom: 15px;
+    font: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #666;
+}
+.tags ul li a i{
+    font-size: 30px;
+    color: #FFA726;
+}
+.other-img{
+    width: 100%;
+    display: inline-block;
+}
+#number-table{
+    width: 100%;
+    display: inline-block;
+    background-color: #F5F5F5;
+    padding:100px 0
+}
+.table{
+    width: 25%;
+    padding: 0 15px 0 0;
+    float: left;
+}
+.table-box{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+.table-box span{
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #FFA726;
+}
+.table-box p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color:#54595F;
+
+}
+#class-banner{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+.class-banner-img{
+    width: 100%;
+    height: 750px;
+}
+.class-banner-img img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.class-banner-img::after{
+    content: "";
+    inset: 0;
+    background-color: black;
+    opacity: 60%;
+    position: absolute;
+}
+.class-banner-text{
+    position: absolute;
+    top: 208px;
+    left: 0;
+    width: 100%;
+
+}
+.first-col{
+    width: 60%;
+    float: left;
+    padding: 0 15px 0 0;
+}
+.first-col span{
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+.first-col h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 51px;
+    max-width: 500px;
+    color: white;
+    padding: 20px 0;
+
+}
+.first-col p{
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+    line-height: 24px;
+}
+.phone a{
+    width: auto;
+    float: left;
+    padding: 16px 37px;
+    border-radius: 30px;
+    background-color: #FFA726;
+    color: white;
+    margin-top: 35px;
+
+}
+.second-col{
+    width: 40%;
+    padding: 0 30px 0 45px ;
+    float: left;}
+   
+
+.upper-line{
+    width: 100%;
+    display: inline-block;
+}
+.upper-line h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-size: 15px;
+    padding: 10px 0;
+}
+.weeks-days{
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0;
+}
+.weeks-days ul li{
+    padding: 4px 0;
+}
+.weeks-days ul li a i{
+color: #FFA726;
+padding: 2px 5px 0 0;}
+.weeks-days span{
+    color: #666;
+}
+.weeks-days ul li a{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+
+
+}
+.more-than{
+    width: 100%;
+    display: inline-block;
+    padding: 35px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 26px;
+}
+#last-col{
+    width: 100%;
+    display: inline-block;
+    padding: 84px 0;
+}
+.first-line{
+    width: 100%;
+    display: inline-block;
+}
+.first-line img{
+    padding-bottom: 20px;
+}
+
+.icon{
+    width: 100%;
+    display: inline-block;
+}
+.icon ul li{
+    display: inline-block;
+}
+.world{
+    width: 25%;
+    padding: 0 15px 0 0;
+    float: left;
+}
+.world-box p{
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #666;
+    padding-bottom: 30px;
+
+}
+.icon ul li a i{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 8px;
+    color: white;
+    margin-bottom: 10px;
+}
+.icon ul li a i#moon{
+   background-color: #FFA726;
+}
+.menu{
+    display: inline-block;
+    width: 100%;
+    padding:33px 0;
+}
+.line{
+    width: 100%;
+    display: inline-block;
+}
+.line h4{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+
+}
+.menu ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #666;
+    opacity: 55%;
+
+}
+.other-menu{
+    width: 100%;
+    display: inline-block;
+    padding: 33px 0;
+}
+.other-menu ul li a i{
+    color: #FFA726;
+    padding: 0 5px;
+}
+.other-menu ul li a{
+    color: #666;
+    opacity: 55%;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.lost-line{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.lost-line p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #666;
+    line-height: 50px;
+
+}
+.phone a i{
+   padding: 2px 4px;
+}
+
+.other-menu ul li a{
+    width: calc(100% - 25px);
+    float: right;
+}
+
+.other-menu ul li i{
+    line-height: 20px;
+    color: #FFA726;
+}
+.other-menu ul li{
+    padding: 3px 0;
+    display: inline-block;
+}
+
+
+
